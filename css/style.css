@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-image: url(../images/sativa.png); }
+  body .main-container .sub-container {
+    display: flex;
+    width: 60%;
+    margin: 10% auto;
+    border: 0px solid black; }
+    body .main-container .sub-container .title {
+      width: 400px;
+      height: 40px;
+      border: 0px solid black;
+      margin-top: 2%;
+      color: black;
+      font-size: 40px;
+      border-bottom: 2px solid sandybrown; }
+    body .main-container .sub-container h2 {
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    body .main-container .sub-container .buttons {
+      border: 0px solid black;
+      text-align: center;
+      margin-left: auto; }
+      body .main-container .sub-container .buttons #start {
+        width: 80px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #333333;
+        color: white;
+        outline: none;
+        margin-top: 20px; }
+      body .main-container .sub-container .buttons #pause {
+        width: 80px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #333333;
+        color: white;
+        outline: none;
+        margin-top: 20px; }
+      body .main-container .sub-container .buttons #clear {
+        width: 80px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #333333;
+        color: white;
+        outline: none;
+        margin-top: 20px; }
+      body .main-container .sub-container .buttons #lapCount {
+        width: 80px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #333333;
+        color: white;
+        outline: none;
+        margin-top: 20px; }
+  body .main-container #parent-div {
+    width: 400px;
+    margin: 10% auto;
+    border: 0px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative; }
+    body .main-container #parent-div .data {
+      color: black;
+      font: 40px;
+      margin: 0 auto;
+      height: 50px;
+      border: 0px solid black;
+      margin-top: 20px; }
+    body .main-container #parent-div .inputText {
+      margin-top: -50px;
+      margin-left: 100px;
+      width: 60%;
+      border: 0px solid black;
+      border-bottom: 2px solid sandybrown;
+      outline: none;
+      background-image: url(../images/sativa.png);
+      font-size: 20px; }
+    body .main-container #parent-div .inputButton {
+      margin-top: -50px;
+      margin-right: -10px;
+      width: 50px;
+      color: #333333;
+      font-family: calibri;
+      background-color: sandybrown;
+      border: none; }
+
+/*# sourceMappingURL=style.css.map */

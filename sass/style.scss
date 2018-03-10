@@ -1,0 +1,83 @@
+@import "mixins/_mixins.scss";
+
+body{
+    margin:0;
+    background-image: url(../images/sativa.png);
+.main-container{
+    .sub-container{
+        display: flex;
+        // justify-content: space-between;
+        width:60%;
+        margin:10% auto;
+        border:0px solid black;
+        .title{
+            width:400px;
+            height: 40px;
+            border: 0px solid black;  
+            margin-top: 2%;
+            color: black;
+            font-size: 40px;
+            border-bottom:2px solid sandybrown;  
+         }
+         h2{
+             color:black;
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         }
+         .buttons{
+             border:0px solid black;
+             text-align: center;
+             margin-left: auto;
+        #start{
+            @include button-style;
+        }
+        #pause{
+            @include button-style;
+        }
+        #clear{
+            @include button-style;
+        }
+        #lapCount{
+            @include button-style;
+        }
+         }
+     
+    }  
+    #parent-div{
+        width:400px;
+        margin:10% auto;
+        border: 0px solid black; 
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       position: relative;
+        .data{
+            color:black;
+            font: 40px;
+            margin: 0 auto;
+            height:50px;
+            border:0px solid black;
+            margin-top: 20px;
+           
+        } 
+        .inputText{
+           margin-top:-50px;
+           margin-left:100px;
+           width: 60%;
+           border:0px solid black;
+           border-bottom: 2px solid sandybrown;
+           outline: none;
+           background-image: url(../images/sativa.png);
+           font-size: 20px;
+        }
+        .inputButton{
+            margin-top:-50px;
+            margin-right:-10px;
+            width:50px;
+            color: rgb(51,51,51);
+            font-family: calibri;
+            background-color: sandybrown;
+            border:none;
+            
+        }
+    } 
+
+  }
+}
